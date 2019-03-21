@@ -20,6 +20,11 @@ public class Main2Activity extends AppCompatActivity {
                 Intent i = new Intent(Main2Activity.this, MainActivity.class);
                 startActivity(i);
             }
+
+
+
         });
+
+
     }
 }
