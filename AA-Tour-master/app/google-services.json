@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "469845129578",
+    "firebase_url": "https://aa-tour-ba81a.firebaseio.com",
+    "project_id": "aa-tour-ba81a",
+    "storage_bucket": "aa-tour-ba81a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469845129578:android:9e41487c06cdfc18",
+        "android_client_info": {
+          "package_name": "com.example.aatour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469845129578-k6j60cn3n31hpu6vum4seh6ut9dq7lor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aatour",
+            "certificate_hash": "939d28964685e46d5d3c1541e6da64e42a5d8950"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQK91neRpOOcLmpkWbDh1TZyvpE1TMBcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469845129578-ookp5kprq5qejsgvv3d79v6l0jfkaelm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
