@@ -53,7 +53,7 @@ public class RegisterActivity extends AppCompatActivity {
                 Users user = new Users(usr,notlp,pss,email);
                 tb_user.child(id).setValue(user);
 
-                Intent login = new Intent (RegisterActivity.this,LoginActivity.class);
+                Intent login = new Intent (RegisterActivity.this,login2.class);
 
                 startActivity(login);
                 finish();
