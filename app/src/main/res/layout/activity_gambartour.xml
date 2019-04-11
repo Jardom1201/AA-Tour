@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gambartour">
+    <ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20px"
+            android:paddingTop="20px"
+            android:text="1.Kawah Putih"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ciwiday" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20px"
+            android:paddingTop="10px"
+            android:paddingRight="10px"
+            android:text="@string/deskripsi"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Dusun Bambu"
+            android:paddingTop="20px"
+            android:paddingLeft="20px"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gambar3" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20px"
+            android:paddingRight="10px"
+            android:paddingTop="10px"
+            android:text="@string/deskripsi2"/>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.Dusun Bambu"
+            android:paddingTop="20px"
+            android:paddingLeft="20px"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gambar4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20px"
+            android:paddingRight="10px"
+            android:paddingTop="10px"
+            android:text="@string/deskripsi3"/>
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.Ranca Upas"
+            android:paddingTop="20px"
+            android:paddingLeft="20px"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gambar2" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20px"
+            android:paddingRight="10px"
+            android:paddingTop="10px"
+            android:text="Pantai Melur adalah salah satu tempat wisata di Batam yang sudah menjadi primadona pariwisata Batam. Pantai ini mempunyai jarak pandang yang luas, air yang jernih, dan hamparan pasir putih yang luas. Selain itu Pantai Melur juga dikelilingi oleh pepohohan hijau yang eksotis dan mempunyai karakteristik ombak yang tenang."/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.Ocarina Park"
+            android:paddingTop="20px"
+            android:paddingLeft="20px"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ciwiday" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20px"
+            android:paddingRight="10px"
+            android:paddingTop="10px"
+            android:text="Ocarina Park adalah Ancol-nya Batam. Dibuka tahun 2008, tempat ini termasuk baru, namun sudah menjadi salah satu tempat wisata di Batam yang wajib dikunjungi. Menempati lahan seluas kurang lebih 40 hektar, Ocarina Park menawarkan wahana permainan yang cocok untuk anak-anak dan dewasa. Selain area bermain, Ocarina Park juga sering kali digunakan sebagai tempat acara besar seperti konser musik. Harga tiket masuk Ocarina Park adalah 5,000 Rupiah per orang, tidak termasuk harga bermain di wahana permainan."/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.Kampung Vietnam"
+            android:paddingTop="20px"
+            android:paddingLeft="20px"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ciwiday" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20px"
+            android:paddingRight="10px"
+            android:paddingTop="10px"
+            android:text="Kampung Vietnam yang terletak di Pulau Galang adalah kawasan tidak berpenghuni yang pada dahulu kala merupakan tempat tinggal dari para pengungsi Vietnam. Pengungsi Vietnam yang sering disebut sebagai manusia perahu mengungsi ke Pulau Galang karena adanya konflik internal di Vietnam. Mengapa kawasan ini tidak berpenghuni? Pemerintah Indonesia yang mengijinkan mereka tinggal di Kampung Vietnam sedikit demi sedikit memulangkan mereka ke kampung halamannya sehingga sekarang ini sudah tidak ada lagi pengungsi di kawasan ini. Walau kosong, Kampung Vietnam masih merupakan tempat wisata di Batam yang menarik untuk dikunjungi karena kondisinya masih sama dengan dahulu kala, lengkap dengan berbagai peninggalannya."/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.Bukit Senyum"
+            android:paddingTop="20px"
+            android:paddingLeft="20px"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ciwiday" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20px"
+            android:paddingRight="10px"
+            android:paddingTop="10px"
+            android:text="Bukit Senyum, sesuai dengan namanya, adalah kawasan perbukitan yang ada di Batam. Bukit ini bukan bukit biasa, dari bukit ini Anda dapat melihat keindahan kota Singapura, terutama pada saat malam hari. Uniknya lagi, Anda juga dapat melihat pesawat datang dan pergi dari bandara Changi. Di Bukit Senyum Anda akan menemukan berbagai jenis tempat nongkrong untuk menikmati pemandangan. Waktu terbaik untuk datang ke Bukit Senyum adalah pada saat tahun baru karena Anda dapat dengan jelas melihat gemerlapnya kembang api dari atas Bukit Senyum."/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8.Pantai Melayu"
+            android:paddingTop="20px"
+            android:paddingLeft="20px"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:src="@drawable/ciwiday"/>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20px"
+            android:paddingRight="10px"
+            android:paddingTop="10px"
+            android:text="Pantai Melayu adalah pantai yang cocok untuk berpiknik karena banyaknya pepohonan sehingga suasana menjadi teduh. Karena ombaknya yang tenang, Pantai Melayu sangat aman dan cocok untuk berenang. Di pantai ini juga Anda dapat bermain banana boat, yaitu permainan menaiki perahu berbentuk pisang secara beramai-ramai dengan biaya 25,000 Rupiah per orang. Untuk memasuki kawasan Pantai Melayu, Anda harus membayar tiket masuk seharga 5,000 Rupiah."/>
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

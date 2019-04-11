@@ -41,17 +41,17 @@ public class RegisterActivity extends AppCompatActivity {
 
         signup = findViewById(R.id.signup);
 
-        signup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+                signup.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
 
-                String usr = Username.getText().toString();
-                String pss = Password.getText().toString();
-                String email = Email.getText().toString();
-                String notlp = No_telphon.getText().toString();
-                String id = tb_user.push().getKey();
-                Users user = new Users(usr,notlp,pss,email);
-                tb_user.child(id).setValue(user);
+                        String usr = Username.getText().toString();
+                        String pss = Password.getText().toString();
+                        String email = Email.getText().toString();
+                        String notlp = No_telphon.getText().toString();
+                        String id = tb_user.push().getKey();
+                        Users user = new Users(usr,notlp,pss,email);
+                        tb_user.child(id).setValue(user);
 
                 Intent login = new Intent (RegisterActivity.this,login2.class);
 

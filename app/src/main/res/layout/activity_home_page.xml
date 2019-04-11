@@ -1,9 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home_page"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@android:color/holo_blue_bright"
     tools:context=".HomePage">
 
-</android.support.constraint.ConstraintLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="296dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp">
+
+    </android.support.v4.view.ViewPager>
+
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="336dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Explore" />
+
+        <Button
+            android:id="@+id/chat1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="62dp"
+            android:layout_marginRight="62dp"
+            android:background="@drawable/lingkaran1"
+            android:drawableBottom="@drawable/ic_chat_black_24dp"
+            android:padding="13dp" />
+
+        <Button
+            android:id="@+id/home1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="239dp"
+            android:layout_marginRight="239dp"
+            android:background="@drawable/lingkaran1"
+            android:drawableBottom="@drawable/ic_home"
+            android:padding="13dp" />
+
+        <Button
+            android:id="@+id/gambar1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="63dp"
+            android:layout_marginRight="63dp"
+            android:layout_marginBottom="19dp"
+            android:background="@drawable/lingkaran1"
+            android:drawableBottom="@drawable/ic_gambar"
+            android:padding="13dp" />
+
+
+        <Button
+            android:id="@+id/makan1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="233dp"
+            android:layout_marginRight="233dp"
+            android:layout_marginBottom="21dp"
+            android:background="@drawable/lingkaran1"
+            android:drawableBottom="@drawable/ic_makan"
+            android:padding="13dp" />
+
+        <Button
+            android:id="@+id/map1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="234dp"
+            android:layout_marginRight="234dp"
+            android:layout_marginBottom="130dp"
+            android:background="@drawable/lingkaran1"
+            android:drawableBottom="@drawable/ic_map"
+            android:padding="13dp" />
+
+        <Button
+            android:id="@+id/lokasi1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="62dp"
+            android:layout_marginRight="62dp"
+            android:layout_marginBottom="121dp"
+            android:background="@drawable/lingkaran1"
+            android:drawableBottom="@drawable/ic_location"
+            android:padding="13dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

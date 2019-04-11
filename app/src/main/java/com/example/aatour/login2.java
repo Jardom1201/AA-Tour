@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
 public class login2 extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,5 +24,5 @@ public class login2 extends AppCompatActivity {
 
             }
         });
-    }
-}
+
+}}
