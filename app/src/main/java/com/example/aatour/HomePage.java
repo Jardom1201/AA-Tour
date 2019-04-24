@@ -21,8 +21,8 @@ public class HomePage extends AppCompatActivity {
 
         viewPager = (ViewPager) findViewById(R.id.viewPager);
 
-        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this);
-        viewPager.setAdapter(viewPagerAdapter);
+        //ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this);
+        //viewPager.setAdapter(viewPagerAdapter);
 
         Button gambar1 = findViewById(R.id.gambar1);
 
